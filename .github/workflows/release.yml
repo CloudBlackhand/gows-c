@@ -71,11 +71,17 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
-          path: bin
+          path: artifacts
       
-      - name: Copy proto file
+      - name: Prepare release files
         run: |
-          cp proto/gows.proto bin/
+          mkdir -p bin
+          # Move artifacts to bin directory (artifacts are in subdirectories)
+          cp artifacts/gows-amd64/gows-amd64 bin/gows-amd64 || cp artifacts/gows-amd64 bin/gows-amd64
+          cp artifacts/gows-arm64/gows-arm64 bin/gows-arm64 || cp artifacts/gows-arm64 bin/gows-arm64
+          cp proto/gows.proto bin/gows.proto
+          chmod +x bin/gows-amd64 bin/gows-arm64
+          ls -lh bin/
       
       - name: Create Release
         uses: softprops/action-gh-release@v1
