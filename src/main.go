@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	gowsLog "github.com/devlikeapro/gows/log"
-	pb "github.com/devlikeapro/gows/proto"
-	"github.com/devlikeapro/gows/server"
+	gowsLog "github.com/CloudBlackhand/gows-c/log"
+	pb "github.com/CloudBlackhand/gows-c/proto"
+	"github.com/CloudBlackhand/gows-c/server"
 	waLog "go.mau.fi/whatsmeow/util/log"
 	"google.golang.org/grpc"
 	"net"

@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/devlikeapro/gows/gows"
-	gowsLog "github.com/devlikeapro/gows/log"
-	pb "github.com/devlikeapro/gows/proto"
+	"github.com/CloudBlackhand/gows-c/gows"
+	gowsLog "github.com/CloudBlackhand/gows-c/log"
+	pb "github.com/CloudBlackhand/gows-c/proto"
 	"github.com/google/uuid"
 	waLog "go.mau.fi/whatsmeow/util/log"
 	"sync"

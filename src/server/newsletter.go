@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 	"errors"
-	"github.com/devlikeapro/gows/gows"
-	__ "github.com/devlikeapro/gows/proto"
+	"github.com/CloudBlackhand/gows-c/gows"
+	__ "github.com/CloudBlackhand/gows-c/proto"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/types"
 )

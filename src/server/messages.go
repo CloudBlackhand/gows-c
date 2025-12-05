@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 	"errors"
-	"github.com/devlikeapro/gows/media"
-	"github.com/devlikeapro/gows/proto"
+	"github.com/CloudBlackhand/gows-c/media"
+	"github.com/CloudBlackhand/gows-c/proto"
 	"github.com/golang/protobuf/proto"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/proto/waE2E"

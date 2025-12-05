@@ -1,4 +1,4 @@
-module github.com/devlikeapro/gows
+module github.com/CloudBlackhand/gows-c
 
 go 1.23.3
 

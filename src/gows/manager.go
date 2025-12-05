@@ -3,7 +3,7 @@ package gows
 import (
 	"context"
 	"errors"
-	gowsLog "github.com/devlikeapro/gows/log"
+	gowsLog "github.com/CloudBlackhand/gows-c/log"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/binary/proto"
 	"go.mau.fi/whatsmeow/store"

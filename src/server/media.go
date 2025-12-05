@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"encoding/json"
-	"github.com/devlikeapro/gows/proto"
+	"github.com/CloudBlackhand/gows-c/proto"
 	"go.mau.fi/whatsmeow/proto/waE2E"
 )
 

@@ -3,7 +3,7 @@ package server
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/devlikeapro/gows/proto"
+	"github.com/CloudBlackhand/gows-c/proto"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"reflect"
