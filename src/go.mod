@@ -11,6 +11,8 @@ require (
 	google.golang.org/protobuf v1.36.1
 )
 
+replace go.mau.fi/whatsmeow => github.com/CloudBlackhand/whatsmeow-c main
+
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/aws/aws-sdk-go v1.55.5 // indirect
